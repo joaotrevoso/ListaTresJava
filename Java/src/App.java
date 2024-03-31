@@ -7,6 +7,8 @@ import Exercicio3.Vendedor;
 import Exercicio4.ConversaoDolarReal;
 import Exercicio4.Dolar;
 import Exercicio4.Real;
+import Exercicio5.Compra;
+import Exercicio5.LojaMamaoComAcucar;
 
 public class App {
 
@@ -18,7 +20,9 @@ public class App {
 
     // CalcularSalarioVendedor.GerarVendedorCalcularSalario(new Vendedor());  
 
-        ConversaoDolarReal.Conversao(new Dolar(), new Real());
+        // ConversaoDolarReal.Conversao(new Dolar(), new Real());
 
-}
+        LojaMamaoComAcucar.CalcularPrestacoes(new Compra(250.20));
+
+    }
 }
