@@ -9,6 +9,8 @@ import Exercicio4.Dolar;
 import Exercicio4.Real;
 import Exercicio5.Compra;
 import Exercicio5.LojaMamaoComAcucar;
+import Exercicio6.CalcularValorCusto;
+import Exercicio6.Produto;
 
 public class App {
 
@@ -22,7 +24,9 @@ public class App {
 
         // ConversaoDolarReal.Conversao(new Dolar(), new Real());
 
-        LojaMamaoComAcucar.CalcularPrestacoes(new Compra(250.20));
+        // LojaMamaoComAcucar.CalcularPrestacoes(new Compra(250.20));
+
+        CalcularValorCusto.PrecoCusto(new Produto(2200.99));
 
     }
 }
