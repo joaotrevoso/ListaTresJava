@@ -4,6 +4,9 @@ import Exercicio2.Automovel;
 import Exercicio2.CalculoKmMedia;
 import Exercicio3.CalcularSalarioVendedor;
 import Exercicio3.Vendedor;
+import Exercicio4.ConversaoDolarReal;
+import Exercicio4.Dolar;
+import Exercicio4.Real;
 
 public class App {
 
@@ -13,7 +16,9 @@ public class App {
 
     //   CalculoKmMedia.CalcularMedia(new Automovel());
 
-    CalcularSalarioVendedor.GerarVendedorCalcularSalario(new Vendedor());  
+    // CalcularSalarioVendedor.GerarVendedorCalcularSalario(new Vendedor());  
 
-    }
+        ConversaoDolarReal.Conversao(new Dolar(), new Real());
+
+}
 }
