@@ -14,6 +14,7 @@ import Exercicio6.Produto;
 import Exercicio7.CalcularValorVeiculo;
 import Exercicio8.AlunoExercicio8;
 import Exercicio8.CalcularMediaAprovacao;
+import Exercicio9.GerarOitentaNumeros;
 
 public class App {
 
@@ -33,8 +34,9 @@ public class App {
 
         // CalcularValorVeiculo.Calcular();
 
-        CalcularMediaAprovacao.CalcularMediaAprovado(new AlunoExercicio8());
+        // CalcularMediaAprovacao.CalcularMediaAprovado(new AlunoExercicio8());
 
-        
+        GerarOitentaNumeros.ContarNumeros();
+
     }
 }
