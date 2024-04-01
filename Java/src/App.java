@@ -12,6 +12,8 @@ import Exercicio5.LojaMamaoComAcucar;
 import Exercicio6.CalcularValorCusto;
 import Exercicio6.Produto;
 import Exercicio7.CalcularValorVeiculo;
+import Exercicio8.AlunoExercicio8;
+import Exercicio8.CalcularMediaAprovacao;
 
 public class App {
 
@@ -29,7 +31,10 @@ public class App {
 
         // CalcularValorCusto.PrecoCusto(new Produto(2200.99));
 
-        CalcularValorVeiculo.Calcular();
+        // CalcularValorVeiculo.Calcular();
 
+        CalcularMediaAprovacao.CalcularMediaAprovado(new AlunoExercicio8());
+
+        
     }
 }
