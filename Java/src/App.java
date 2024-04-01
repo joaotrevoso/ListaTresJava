@@ -1,5 +1,6 @@
 import Exercicio1.Aluno;
 import Exercicio1.AlunoMedia;
+import Exercicio10.CriarPessoaVerificarIdade;
 import Exercicio2.Automovel;
 import Exercicio2.CalculoKmMedia;
 import Exercicio3.CalcularSalarioVendedor;
@@ -36,7 +37,9 @@ public class App {
 
         // CalcularMediaAprovacao.CalcularMediaAprovado(new AlunoExercicio8());
 
-        GerarOitentaNumeros.ContarNumeros();
+        // GerarOitentaNumeros.ContarNumeros();
+
+        CriarPessoaVerificarIdade.GerarPessoa();
 
     }
 }
