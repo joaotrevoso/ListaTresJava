@@ -2,6 +2,7 @@ import Exercicio1.Aluno;
 import Exercicio1.AlunoMedia;
 import Exercicio10.CriarPessoaVerificarIdade;
 import Exercicio11.VerificarSexo;
+import Exercicio12.CalcularDescontoVeiculo;
 import Exercicio2.Automovel;
 import Exercicio2.CalculoKmMedia;
 import Exercicio3.CalcularSalarioVendedor;
@@ -42,7 +43,9 @@ public class App {
 
         // CriarPessoaVerificarIdade.GerarPessoa();
 
-        VerificarSexo.VerificarSexo();
+        // VerificarSexo.VerificarSexo();
+
+        CalcularDescontoVeiculo.CalcularDescontos();
 
     }
 }
