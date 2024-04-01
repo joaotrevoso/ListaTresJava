@@ -1,6 +1,7 @@
 import Exercicio1.Aluno;
 import Exercicio1.AlunoMedia;
 import Exercicio10.CriarPessoaVerificarIdade;
+import Exercicio11.VerificarSexo;
 import Exercicio2.Automovel;
 import Exercicio2.CalculoKmMedia;
 import Exercicio3.CalcularSalarioVendedor;
@@ -39,7 +40,9 @@ public class App {
 
         // GerarOitentaNumeros.ContarNumeros();
 
-        CriarPessoaVerificarIdade.GerarPessoa();
+        // CriarPessoaVerificarIdade.GerarPessoa();
+
+        VerificarSexo.VerificarSexo();
 
     }
 }
