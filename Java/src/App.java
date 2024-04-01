@@ -4,6 +4,7 @@ import Exercicio10.CriarPessoaVerificarIdade;
 import Exercicio11.VerificarSexo;
 import Exercicio12.CalcularDescontoVeiculo;
 import Exercicio13.IsValidoExercito;
+import Exercicio14.LucroOrPrejuizo;
 import Exercicio2.Automovel;
 import Exercicio2.CalculoKmMedia;
 import Exercicio3.CalcularSalarioVendedor;
@@ -49,6 +50,8 @@ public class App {
         // CalcularDescontoVeiculo.CalcularDescontos();
 
         IsValidoExercito.PessoaAlistamento();
+
+        LucroOrPrejuizo.Produtos();
 
     }
 }
